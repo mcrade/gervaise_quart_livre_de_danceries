@@ -9,7 +9,7 @@ scGlobal = {
   \time 4/2
 }
 
-scTitle = "19 Pavane"
+scTitle = "18 Pavane"
 scSubtitle = \markup \italic "From Pierre Attaignant's Fourth Book of Dances"
 scMeter = ""
 scPoet = ""
@@ -17,7 +17,7 @@ scComposer = "Claude Gervaise"
 scCopyright = ""
 scTagline = ""
 
-scMusicOneClefOrig = 
+scMusicOneClefOrig =  \clef soprano
 scMusicOneClefModern = \clef treble
 scMusicOne = \relative c'' {  
    
@@ -25,21 +25,27 @@ scMusicOne = \relative c'' {
    }
    \repeat volta 2 {
    }
+   \repeat volta 2 {
+   }
    
 }
 
 
-scMusicTwoClefOrig = 
+scMusicTwoClefOrig = \clef alto 
 scMusicTwoClefModern = \clef treble 
 scMusicTwo =  \relative c' {  
    \repeat volta 2 {
    }
    \repeat volta 2 {
    }
+   \repeat volta 2 {
+   }
 }
-scMusicThreeClefOrig = 
+scMusicThreeClefOrig = \clef alto 
 scMusicThreeClefModern = \clef "G_8" 
 scMusicThree = \relative c' {
+   \repeat volta 2 {
+   }
    \repeat volta 2 {
    }
    \repeat volta 2 {

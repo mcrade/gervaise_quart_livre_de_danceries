@@ -6,10 +6,10 @@ scTempo = #(ly:make-moment 165 2)
 
 scGlobal = {
   \key c \major
-  \time 4/2
+  \time 3/2
 }
 
-scTitle = "11 Pavane"
+scTitle = "05 Galliarde"
 scSubtitle = \markup \italic "From Pierre Attaignant's Fourth Book of Dances"
 scMeter = ""
 scPoet = ""
@@ -17,7 +17,7 @@ scComposer = "Claude Gervaise"
 scCopyright = ""
 scTagline = ""
 
-scMusicOneClefOrig = \clef soprano
+scMusicOneClefOrig =  \clef soprano
 scMusicOneClefModern = \clef treble
 scMusicOne = \relative c'' {  
    
@@ -41,7 +41,7 @@ scMusicTwo =  \relative c' {
    \repeat volta 2 {
    }
 }
-scMusicThreeClefOrig = \clef alto 
+scMusicThreeClefOrig = \clef tenor 
 scMusicThreeClefModern = \clef "G_8" 
 scMusicThree = \relative c' {
    \repeat volta 2 {
@@ -64,22 +64,11 @@ scMusicFour = \relative c' {
    }
 }
 
-scMusicFiveClefOrig = \clef bass
-scMusicFiveClefModern = \clef bass
-scMusicFive = \relative c' {
-
-   \repeat volta 2 {
-   }
-   \repeat volta 2 {
-   }
-   \repeat volta 2 {
-   }
-}
 
 scChordLine = \chordmode {
 
 }
 
-\include "../include/sc_a5.ly"
+\include "../include/sc_a4.ly"
 
 \version "2.12.0"  % necessary for upgrading to future LilyPond versions.

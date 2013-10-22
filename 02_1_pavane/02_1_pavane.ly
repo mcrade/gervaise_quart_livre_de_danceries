@@ -5,11 +5,11 @@
 scTempo = #(ly:make-moment 165 2)
 
 scGlobal = {
-  \key c \major
+  \key f \major
   \time 4/2
 }
 
-scTitle = "11 Pavane"
+scTitle = "02 Pavane"
 scSubtitle = \markup \italic "From Pierre Attaignant's Fourth Book of Dances"
 scMeter = ""
 scPoet = ""
@@ -25,27 +25,21 @@ scMusicOne = \relative c'' {
    }
    \repeat volta 2 {
    }
-   \repeat volta 2 {
-   }
    
 }
 
 
-scMusicTwoClefOrig = \clef alto 
+scMusicTwoClefOrig = \clef alto
 scMusicTwoClefModern = \clef treble 
 scMusicTwo =  \relative c' {  
    \repeat volta 2 {
    }
    \repeat volta 2 {
    }
-   \repeat volta 2 {
-   }
 }
-scMusicThreeClefOrig = \clef alto 
+scMusicThreeClefOrig = \clef tenor 
 scMusicThreeClefModern = \clef "G_8" 
 scMusicThree = \relative c' {
-   \repeat volta 2 {
-   }
    \repeat volta 2 {
    }
    \repeat volta 2 {
@@ -60,19 +54,17 @@ scMusicFour = \relative c' {
    }
    \repeat volta 2 {
    }
-   \repeat volta 2 {
-   }
 }
 
-scMusicFiveClefOrig = \clef bass
+scMusicFiveClefOrig = \clef soprano
 scMusicFiveClefModern = \clef bass
-scMusicFive = \relative c' {
+scMusicFive = \relative c'' {
 
    \repeat volta 2 {
+       bf1 bf2 bf c2. bf4 a2 g f g d g g1 g g g2 g a1 r2 d2 d bf2 c4 bf a g a1 a1 
    }
    \repeat volta 2 {
-   }
-   \repeat volta 2 {
+       a1 d,2 f g1 d2 d' e  c d1 g, g g d2 a' g1. f4 e d2 g d'1 bf\breve
    }
 }
 
